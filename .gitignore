@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Build output for React
+/build/
+
+# Backend database (SQLite)
+/database.sqlite
+
+# Logs
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE configurations
+.idea/
+.vscode/
+
+# React-specific
+/.pnp/
+.pnp.js
+
+# Testing coverage output
+/coverage/
+
+# Temporary files
+*.swp

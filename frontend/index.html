@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Plugin Demo</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="booking-widget"></div>
+
+  <script src="js/booking.js"></script>
+  <script>
+    const plugin = new BookingPlugin("http://localhost:3000");
+    plugin.init("booking-widget");
+  </script>
+</body>
+</html>
